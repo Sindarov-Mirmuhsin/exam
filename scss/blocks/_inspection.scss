@@ -1,0 +1,85 @@
+.inspection__container{
+  width: 100%;
+  max-width: 1310px;
+  padding-left: 44px;
+  padding-right: 44px;
+  margin: 0 auto;
+}
+
+.inspection__list{
+  display: flex;
+  margin-bottom: 14px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.inspection__item{
+  list-style-type: none;
+  max-width: 193px;
+  width: 100%;
+  padding: 30px 61px 20px 60px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.inspection__item:hover{
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+}
+
+.inspection__item:active{
+  background: #FFFFFF;
+  opacity: 0.6;
+}
+
+.inspection__item--info{
+  list-style-type: none;
+  max-width: 193px;
+  width: 100%;
+  padding: 30px 61px 35px 60px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.inspection__title{
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  display: flex;
+  color: #333333;
+  margin-left: 500px;
+  // position: relative;
+  // left: 545px;
+  // outline: none;
+}
+
+.inspection__item + .inspection__item{
+  margin-left: 13px;
+}
+
+.inspection__link{
+  text-decoration: none;
+}
+
+.inpection__img{
+  align-items: center;
+}
+
+.inspection__info{
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center; 
+  color: #333333;
+}

@@ -1,0 +1,57 @@
+.form{
+  display: flex;
+  margin-bottom: 247px;
+background-image: url("../../images/fishsh.jpg");
+background-repeat: no-repeat;
+background-position: 230px,100px;
+  
+}
+
+
+
+
+
+.form__label{
+  display: block;
+  
+}
+
+.form__input{
+  outline: none;
+  border: none;
+  padding: 16px 15px 16px 22px;
+}
+
+.form__input--mdf{
+    outline: none;
+  border: none;
+  padding: 16px 77px 16px 22px;
+}
+
+.form__title{
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.form__text{
+  width: 255px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.form__btn{
+  outline: none;
+  border: none;
+  padding: 15px 50px;
+  background: #FFBD54;
+  border-radius: 0px;
+  color: #FFFFFF;
+}

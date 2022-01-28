@@ -1,0 +1,56 @@
+.info{
+  position: relative;
+  background-image: url("../../images/dog.jpg");
+  background-repeat: no-repeat;
+  background-position: 40px,100%;
+  background-size: 1477px,308px;
+  margin-bottom: 216px;
+}
+
+.info__container{
+  width: 100%;
+  max-width: 1444px;
+  height: 427px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.info__box{
+  position: absolute;
+  top: 168px;
+  left: 320px;
+  
+}
+
+.info__title{
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.info__label{
+  display: flex;
+  align-items: center;
+}
+
+.info__input{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 18px 147px 12px 22px;
+}
+
+.info__btn{
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 15px 53px 14px 51px;
+  background: #333333;
+  color: #FFFFFF;
+  margin-left: 21px;
+}

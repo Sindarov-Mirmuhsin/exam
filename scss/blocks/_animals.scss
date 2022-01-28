@@ -1,0 +1,73 @@
+.animals__info{
+  width: 100%;
+  max-width: 745px;
+  margin-left: auto;
+  padding: 153px 97px 354px 82px;
+}
+
+.animals__list{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.animals__title{
+  font-family: "Futura PT";
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+}
+
+.animals__point{
+  font-family: "Futura PT";
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #78C0DE;
+}
+
+.animals__text{
+  font-family: "Futura PT";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin-bottom: 38px;
+}
+
+.animals__link{
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 48px 16px 47px;
+  background-color: #333333;
+  color: #fff;
+  border-radius: 3px;
+  
+}
+.animals__link:hover{
+  background: #FFBD54;
+  border-radius: 3px;
+  color: #333333;
+}
+
+.animals__link:active{
+  background: #FFBD54;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+
+
+.animals{
+  background-image: url("../images/animals.jpg"), url("../images/bird.jpg");
+  background-repeat: no-repeat;
+  background-position: -235px 50px,1288px 455px;
+  margin-bottom: 100px;
+}
+
