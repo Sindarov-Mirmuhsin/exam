@@ -1061,7 +1061,7 @@ img {
 
 .info {
   position: relative;
-  background-image: url("../../images/dog.jpg");
+  background-image: url("../images/dog.jpg");
   background-repeat: no-repeat;
   background-position: 40px,100%;
   background-size: 1477px,308px;
