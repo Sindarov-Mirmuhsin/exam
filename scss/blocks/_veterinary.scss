@@ -1,33 +1,31 @@
 .veterinary::before{
   position: absolute;
   z-index: +1;
-  width: 142px;
-  height: 128px;
-  left: 335px;
-  top: 1075px;
+  left: 355px;
+  top: 1080px;
   display: block;
   content: "";
-  background-image: url("../../images/simple1.png"),url("../../images/simple2.png");
+  background-image: url("../images/simple1.png");
   background-repeat: no-repeat;
   background-position: 50px 10px,500px 10px;
   width: 142px;
   height: 128px;
 }
 
-// .veterinary::after{
-//   position: absolute;
-//   z-index: +1;
-//   width: 142px;
-//   height: 128px;
-//   left: 335px;
-//   top: 1075px;
-//   display: block;
-//   content: "";
-//   background-image: url("../../images/simple1.png");
-//   background-repeat: no-repeat;
-//   width: 142px;
-//   height: 128px;
-// }
+.veterinary::after{
+  position: absolute;
+  z-index: +1;
+  width: 142px;
+  height: 128px;
+  left: 1212px;
+  top: 1162px;
+  display: block;
+  content: "";
+  background-image: url("../../images/simple2.png");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 128px;
+}
 
 .veterinary__box{
   margin: 0 auto;

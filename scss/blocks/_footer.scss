@@ -56,5 +56,15 @@
 }
 
 .footer__text{
- margin-left: 840px;
+  margin-left: 840px;
+}
+
+.footer__logo{
+  position: relative;
+  z-index: +1;
+  left: -205px;
+  top: 50px;
+  
+  content: "";
+  
 }
